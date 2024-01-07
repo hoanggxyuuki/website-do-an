@@ -1,0 +1,121 @@
+{
+  "doan": [
+    {
+      "id": 1,
+      "name": "Bún chả",
+      "ingredients": "bún, chả, nước chấm, rau sống",
+      "region": "Bắc",
+      "instructions": "Nướng chả, luộc bún, pha nước chấm, ăn kèm với rau sống",
+      "img": "https://i.pinimg.com/originals/ac/7b/d5/ac7bd58371f6d6ae8d0ad4e0c1390cdf.jpg",
+      "price": 30000
+    },
+    {
+      "id": 2,
+      "name": "Cơm tấm",
+      "ingredients": "cơm tấm, sườn nướng, bì chả, trứng ốp la, nước mắm",
+      "region": "Nam",
+      "instructions": "Nướng sườn, chiên bì chả, ốp trứng, ăn kèm với cơm tấm và nước mắm",
+      "img": "https://th.bing.com/th/id/R.31c330ad7bb05b71ac742224beff7a45?rik=VoIA3I5cL%2f3AMQ&pid=ImgRaw&r=0&sres=1&sresct=1",
+      "price": 30000
+    },
+    {
+      "id": 3,
+      "name": "Phở",
+      "ingredients": "bánh phở, thịt bò, hành, gừng",
+      "region": "Bắc",
+      "instructions": "Luộc bánh phở, thái thịt bò mỏng, xào hành gừng, cho tất cả vào bát và chan nước dùng",
+      "img": "https://deliciousvietnam.net/wp-content/uploads/2020/05/Delicious-Vietnam-pho-bo-vietnamese-beef-noodle-soup.jpeg",
+      "price": 30000
+    },
+    {
+      "id": 4,
+      "name": "Bún bò Huế",
+      "ingredients": "bún, thịt bò, giò heo, chả cua, nước dùng",
+      "region": "Trung",
+      "instructions": "Nấu nước dùng với thịt bò, giò heo, chả cua, luộc bún, ăn kèm với rau sống",
+      "img": "https://th.bing.com/th/id/OIP.N5F7Bs36nx0z8aBONKHdOwHaJ4?w=203&h=187&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+      "price": 30000
+    },
+    {
+      "id": 5,
+      "name": "Cao lầu",
+      "ingredients": "mì gạo, thịt heo, tôm, nước dùng",
+      "region": "Trung",
+      "instructions": "Nấu nước dùng với thịt heo, tôm, luộc mì gạo, ăn kèm với rau sống",
+      "img": "https://bloganchoi.com/wp-content/uploads/2016/07/cao-lau-3.jpg",
+      "price": 30000
+    },
+    {
+      "id": 6,
+      "name": "Bánh xèo",
+      "ingredients": "bột gạo, nước cốt dừa, tôm, thịt heo, giá đỗ",
+      "region": "Nam",
+      "instructions": "Pha bột gạo với nước cốt dừa, đổ vào chảo dầu nóng, cho tôm, thịt heo, giá đỗ vào, gấp đôi bánh lại và ăn kèm với nước chấm",
+      "img": "https://bing.com/th?id=OSK.1f4364fa6e47282299aea02a4e1d7fcc",
+      "price": 30000
+    },
+    {
+      "id": 7,
+      "name": "Bánh khọt",
+      "ingredients": "bột gạo, nước cốt dừa, tôm, thịt heo, giá đỗ",
+      "region": "Nam",
+      "instructions": "Pha bột gạo với nước cốt dừa, đổ vào khuôn bánh khọt, cho tôm, thịt heo, giá đỗ vào, đậy nắp lại và nướng chín",
+      "img": "https://i2.wp.com/www.eatingsaigon.com/wp-content/uploads/2011/09/Banh_khot.jpg?w=1390&ssl=1",
+      "price": 30000
+    },
+    {
+      "id": 8,
+      "name": "Bánh canh",
+      "ingredients": "bột gạo, nước xương, thịt heo, tôm, chả cá",
+      "region": "Trung",
+      "instructions": "Nấu nước xương với thịt heo, tôm, chả cá, luộc bánh canh, ăn kèm với rau sống",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Banh-Canh-Noodle-Soup.jpg/375px-Banh-Canh-Noodle-Soup.jpg",
+      "price": 30000
+    },
+    {
+      "id": 9,
+      "name": "Cơm hến",
+      "ingredients": "cơm, hến, nước dùng, rau răm",
+      "region": "Trung",
+      "instructions": "Nấu nước dùng với hến, luộc cơm, ăn kèm với rau răm",
+      "img": "https://th.bing.com/th/id/OIP.0Nrpj7e3p1_mzL2sEPZrzgHaE8?rs=1&pid=ImgDetMain",
+      "price": 30000
+    },
+    {
+      "id": 10,
+      "name": "Bún mắm",
+      "ingredients": "bún, mắm, thịt heo, tôm, chả cá",
+      "region": "Nam",
+      "instructions": "Nấu mắm với thịt heo, tôm, chả cá, luộc bún, ăn kèm với rau sống",
+      "img": "https://saigontraveling.com/wp-content/uploads/2018/11/Bun_mam_saigontraveling-830x541.jpg",
+      "price": 30000
+    },
+    {
+      "id": 11,
+      "name": "Bún riêu",
+      "ingredients": "bún, riêu cua, thịt heo, tôm, chả cá",
+      "region": "Bắc",
+      "instructions": "Nấu riêu cua với thịt heo, tôm, chả cá, luộc bún, ăn kèm với rau sống",
+      "img": "https://th.bing.com/th/id/OIP.NQHZtf8DCLePOZv59SPpVQHaE9?rs=1&pid=ImgDetMain",
+      "price": 30000
+    },
+    {
+      "id": 12,
+      "name": "Bún chả cá",
+      "ingredients": "bún, chả cá, nước dùng, rau răm",
+      "region": "Bắc",
+      "instructions": "Nấu nước dùng với chả cá, luộc bún, ăn kèm với rau răm",
+      "img": "https://bing.com/th?id=OSK.9770b42f77634224d98da24f89522ebb",
+      "price": 30000
+    },
+    {
+      "id": 13,
+      "name": "Bánh cuốn",
+      "ingredients": "bánh, cuốn, rau rý",
+      "region": "Bắc",
+      "instructions": "Bánh cuốn được làm từ bột gạo với thành vở bánh được tráng mỏng. Khi vỏ bánh kết dính lại, đổ thêm nhân gồm thịt băm, mộc nhĩ, nấm hương, hành khô. Sau đó cuộn lại để thành món bánh cuốn thơm ngon và bày ra đĩa, cắt thêm hành khô và ăn kèm với rau sống, nước chấm chua ngọt để món ăn đẹp mắt và thơm ngon hơn. ",
+      "img": "https://vuanem.com/blog/wp-content/uploads/2022/05/banh-cuon-mon-an-truyen-thong-viet-nam.jpg",
+      "price": 20000
+    }
+  ]
+}
