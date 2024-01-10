@@ -11,8 +11,8 @@ def home():
 #Token và id của bot telegram
 TELEGRAM_BOT_TOKEN = '6532818104:AAFkAxwTMthHrKHfjksCaGnKBSDuNIIexLs'  
 TELEGRAM_CHAT_ID = '6296558403'  
-#gửi thông tin khách hàng về telegram
 @app.route('/send-telegram', methods=['POST'])
+#lấy thông tin khách hàng nhập vào
 def send_telegram_route():
     data = request.get_json()
     name = data.get('name')
@@ -30,18 +30,21 @@ def send_telegram_route():
     else:
         
         response = send_telegram_message(name, phone, address,mon_an,so_luong)
-
+#kiểm tra kết quả
         if response.get('ok'):
             return jsonify({'success': True})
         else:
             return jsonify({'error': False})
-
+#kiểm tra kí tự người dùng nhập vào có đúng yêu cầu không
 def validate_name(name):
     return bool(re.match(r'^[a-zA-Z\sáàảãạăắằẳẵặâấầẩẫậéèẻẽẹêếềểễệíìỉĩịóòỏõọôốồổỗộơớờởỡợúùủũụưứừửữựýỳỷỹỵĐđ]+$', name))
+#kiểm tra xem số điện thoại người dùng nhập vào có đúng 10 số hay không(hàm bool chuyển đổi re.match thành boolean)
 def validate_phone_number(phone):
     return bool(re.match(r'^\d{10}$', phone))
+#kiểm tra địa chỉ nhập vào , strip() dùng để loại bỏ đầu và cuối xem chuỗi kết quả bị rỗng hay không
 def validate_address(address):
     return bool(address.strip())    
+#gửi thông tin khách hàng
 def send_telegram_message(name, phone, address, mon_an,so_luong):
     if not name or not phone or not address:
         return {'error': 'Vui lòng điền đầy đủ thông tin.'}
